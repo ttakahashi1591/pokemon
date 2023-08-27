@@ -1,5 +1,5 @@
 class TrainersController < ApplicationController
   def index
-    @trainers = ["Ash", "Red", "Gary"]
+    @trainers = Trainer.all
   end
 end
