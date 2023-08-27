@@ -1,6 +1,36 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/spec/test_helper.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null
+        ]
+      },
       "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/config/environment.rb": {
         "lines": [
           null,
@@ -222,6 +252,9 @@
           null,
           null,
           null,
+          null,
+          1,
+          1,
           null
         ]
       },
@@ -231,7 +264,7 @@
           null
         ]
       },
-      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/app/models/pocket_monster.rb": {
+      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/app/models/trainer.rb": {
         "lines": [
           1,
           1,
@@ -251,22 +284,8 @@
           1,
           null
         ]
-      },
-      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/app/models/trainer.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null
-        ]
       }
     },
-    "timestamp": 1693005917
+    "timestamp": 1693171064
   }
 }
