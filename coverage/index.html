@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.12.3/application.js' type='text/javascript'></script>
     <link href='./assets/0.12.3/application.css' media='screen, projection, print' rel='stylesheet' type='text/css' />
-    <link rel="shortcut icon" type="image/png" href="./assets/0.12.3/favicon_green.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.12.3/favicon_yellow.png" />
     <link rel="icon" type="image/png" href="./assets/0.12.3/favicon.png" />
   </head>
 
@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2023-08-25T17:25:17-06:00">2023-08-25T17:25:17-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2023-08-27T15:17:44-06:00">2023-08-27T15:17:44-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -22,15 +22,15 @@
   <h2>
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
-      <span class="green">
-  100.0%
+      <span class="yellow">
+  85.14%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
-       <span class="yellow">
-         1.0
+       <span class="red">
+         0.85
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>61</b> relevant lines,
-    <span class="green"><b>61</b> lines covered</span> and
-    <span class="red"><b>0</b> lines missed. </span>
-    (<span class="green">
-  100.0%
+    <b>74</b> relevant lines,
+    <span class="green"><b>63</b> lines covered</span> and
+    <span class="red"><b>11</b> lines missed. </span>
+    (<span class="yellow">
+  85.14%
 </span>
 )
   </div>
@@ -87,17 +87,6 @@
             <td class="cell--number">3</td>
             <td class="cell--number">2</td>
             <td class="cell--number">2</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">1.00</td>
-            
-          </tr>
-        
-          <tr class="t-file">
-            <td class="strong t-file__name"><a href="#28d9c5a1d396d7a382952138d554429f638fcd82" class="src_link" title="app/models/pocket_monster.rb">app/models/pocket_monster.rb</a></td>
-            <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">10</td>
-            <td class="cell--number">8</td>
-            <td class="cell--number">8</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -216,11 +205,22 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#2bfaae890161dc71a9f72254319a4a77968101c7" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">6</td>
-            <td class="cell--number">1</td>
-            <td class="cell--number">1</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">3</td>
+            <td class="cell--number">3</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#dedf06d3dc3b2415fa8c64b5a180529c5b384885" class="src_link" title="spec/test_helper.rb">spec/test_helper.rb</a></td>
+            <td class="red strong cell--number t-file__coverage">42.11 %</td>
+            <td class="cell--number">26</td>
+            <td class="cell--number">19</td>
+            <td class="cell--number">8</td>
+            <td class="cell--number">11</td>
+            <td class="cell--number">0.42</td>
             
           </tr>
         
@@ -344,147 +344,6 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="3">
-            
-            
-
-            
-
-            <code class="ruby">end</code>
-          </li>
-        </div>
-      
-    </ol>
-  </pre>
-</div>
-
-      
-        <div class="source_table" id="28d9c5a1d396d7a382952138d554429f638fcd82">
-  <div class="header">
-    <h3>app/models/pocket_monster.rb</h3>
-    <h4>
-      <span class="green">
-  100.0%
-</span>
-
-      lines covered
-    </h4>
-
-    
-
-    <div class="t-line-summary">
-      <b>8</b> relevant lines.
-      <span class="green"><b>8</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
-    </div>
-
-    
-
-  </div>
-
-  <pre>
-    <ol>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="1">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">class PocketMonster &lt; ApplicationRecord</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="2">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  belongs_to :trainer, dependent: :destroy</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="3">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="4">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  validates_presence_of :name</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="5">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  validates_presence_of :pokemon_type</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="6">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  validates_presence_of :level</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="7">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  validates_presence_of :health_points</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="8">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  validates :can_evolve, inclusion: [true, false]</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="9">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  validates_presence_of :trainer_id</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="10">
             
             
 
@@ -2891,8 +2750,8 @@
     
 
     <div class="t-line-summary">
-      <b>1</b> relevant lines.
-      <span class="green"><b>1</b> lines covered</span> and
+      <b>3</b> relevant lines.
+      <span class="green"><b>3</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -2960,6 +2819,356 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  get &quot;/&quot;, to: &quot;welcome#index&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  get &quot;/trainers&quot;, to: &quot;trainers#index&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="dedf06d3dc3b2415fa8c64b5a180529c5b384885">
+  <div class="header">
+    <h3>spec/test_helper.rb</h3>
+    <h4>
+      <span class="red">
+  42.11%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>19</b> relevant lines.
+      <span class="green"><b>8</b> lines covered</span> and
+      <span class="red"><b>11</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">def load_test_data</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  @ash = Trainer.create!(name: &#39;Ash&#39;, age: 10, hometown: &#39;Pallet Town&#39;, trainer_class: &#39;Beginning Trainer&#39;, gym_badges_collected: 0, pokedex_count: 2, has_bike: false)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  @gary = Trainer.create!(name: &#39;Gary&#39;, age: 11, hometown: &#39;Pallet Town&#39;, trainer_class: &#39;Novice&#39;, gym_badges_collected: 1, pokedex_count: 7, has_bike: false)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  @red = Trainer.create!(name: &#39;Red&#39;, age: 15, hometown: &#39;Safrron City&#39;, trainer_class: &#39;Pikachu Fan&#39;, gym_badges_collected: 4, pokedex_count: 23, has_bike: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  @blue = Trainer.create!(name: &#39;Blue&#39;, age: 17, hometown: &#39;Lavender Town&#39;, trainer_class: &#39;Swimming Champ&#39;, gym_badges_collected: 6, pokedex_count: 48, has_bike: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  @misty = Trainer.create!(name: &#39;Misty&#39;, age: 19, hometown: &#39;Cerulean City&#39;, trainer_class: &#39;Gym Leader&#39;, gym_badges_collected: 8, pokedex_count: 73, has_bike: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  @tsutomu = Trainer.create!(name: &#39;Tsutomu&#39;, age: 22, hometown: &#39;Sootopolis City&#39;, trainer_class: &#39;Master Champion&#39;, gym_badges_collected: 8, pokedex_count: 151, has_bike: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  @pikachu = @ash.pocket_monster.create!(name: &#39;Pikachu&#39;, pokemon_type: &quot;Electric&quot;, level: 5, health_points: 20, can_evolve: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">  @caterpie = @ash.pocket_monster.create!(name: &#39;Caterpie&#39;, pokemon_type: &quot;Bug&quot;, level: 7, health_points: 23, can_evolve: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby">  @bulbasaur = @gary.pocket_monster.create!(name: &#39;Bulbasaur&#39;, pokemon_type: &quot;Grass&quot;, level: 5, health_points: 21, can_evolve: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby">  @growlithe =@gary.pocket_monster.create!(name: &#39;Growlithe&#39;, pokemon_type: &quot;Fire&quot;, level: 8, health_points: 33, can_evolve: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby">  @charmeleon = @red.pocket_monster.create!(name: &#39;Charmeleon&#39;, pokemon_type: &#39;Fire&#39;, level: 18, health_points: 44, can_evolve: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby">  @haunter = @red.pocket_monster.create!(name: &#39;Haunter&#39;, pokemon_type: &#39;Ghost&#39;, level: 26, health_points: 103, can_evolve: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="18">
+            
+            
+
+            
+
+            <code class="ruby">  @blastoise = @blue.pocket_monster.create!(name: &#39;Blastoise&#39;, pokemon_type: &#39;Water&#39;, level: 39, health_points: 133, can_evolve: false)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby">  @mewtwo = @blue.pocket_monster.create!(name: &#39;Mewtwo&#39;, pokemon_type: &#39;Psychic&#39;, level: 70, health_points: 167, can_evolve: false)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="21">
+            
+            
+
+            
+
+            <code class="ruby">  @starmie = @misty.pocket_monster.create!(name: &#39;Starmie&#39;, pokemon_type: &#39;Water&#39;, level: 27, health_points: 74, can_evolve: false)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="22">
+            
+            
+
+            
+
+            <code class="ruby">  @togepi = @misty.pocket_monster.create!(name: &#39;Togepi&#39;, pokemon_type: &#39;Fairy&#39;, level: 23, health_points: 52, can_evolve: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="23">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby">  @charizard = @tsutomu.pocket_monster.create!(name: &#39;Charizard&#39;, pokemon_type: &#39;Fire&#39;, level: 100, health_points: 289, can_evolve: false)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="25">
+            
+            
+
+            
+
+            <code class="ruby">  @dragonite = @tsutomu.pocket_monster.create!(name: &#39;Dragonite&#39;, pokemon_type: &#39;Dragon&#39;, level: 77, health_points: 193, can_evolve: false)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="26">
             
             
 

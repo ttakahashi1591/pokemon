@@ -3,11 +3,11 @@ def load_test_data
   @gary = Trainer.create!(name: 'Gary', age: 11, hometown: 'Pallet Town', trainer_class: 'Novice', gym_badges_collected: 1, pokedex_count: 7, has_bike: false)
   @red = Trainer.create!(name: 'Red', age: 15, hometown: 'Safrron City', trainer_class: 'Pikachu Fan', gym_badges_collected: 4, pokedex_count: 23, has_bike: true)
   @blue = Trainer.create!(name: 'Blue', age: 17, hometown: 'Lavender Town', trainer_class: 'Swimming Champ', gym_badges_collected: 6, pokedex_count: 48, has_bike: true)
-  @misty = Trainer.create!(name: 'Misty', age: 19, hometown: 'Cerulean City', trainer_class: 'Gym Leader', gym_badges_collected: pokedex_count: has_bike: true)
-  @tsutomu = Trainer.create!(name: 'Tsutomu', age: 22, hometown: 'Sootopolis City', trainer_class: 'Master Champion' gym_badges_collected: 8, pokedex_count: 151, has_bike: true)
+  @misty = Trainer.create!(name: 'Misty', age: 19, hometown: 'Cerulean City', trainer_class: 'Gym Leader', gym_badges_collected: 8, pokedex_count: 73, has_bike: true)
+  @tsutomu = Trainer.create!(name: 'Tsutomu', age: 22, hometown: 'Sootopolis City', trainer_class: 'Master Champion', gym_badges_collected: 8, pokedex_count: 151, has_bike: true)
 
-  @pikachu = @ash.pocket_monster.create!(name: 'Pikachu', pokemon_type: "Electric", level: 5, health_points: 20 , can_evolve: true)
-  @caterpie = @ash.pocket_monster.create!(name: 'Caterpie', pokemon_type: "Bug", level: 7 , health_points: 23 , can_evolve: true)
+  @pikachu = @ash.pocket_monster.create!(name: 'Pikachu', pokemon_type: "Electric", level: 5, health_points: 20, can_evolve: true)
+  @caterpie = @ash.pocket_monster.create!(name: 'Caterpie', pokemon_type: "Bug", level: 7, health_points: 23, can_evolve: true)
 
   @bulbasaur = @gary.pocket_monster.create!(name: 'Bulbasaur', pokemon_type: "Grass", level: 5, health_points: 21, can_evolve: true)
   @growlithe =@gary.pocket_monster.create!(name: 'Growlithe', pokemon_type: "Fire", level: 8, health_points: 33, can_evolve: true)
