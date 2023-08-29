@@ -68,6 +68,5 @@ RSpec.describe 'pocket_monsters index page' do
     expect(page).to have_content(@dragonite.level)
     expect(page).to have_content(@dragonite.can_evolve)
 
-    save_and_open_page
   end
 end
