@@ -23,7 +23,5 @@ RSpec.describe 'trainers show page' do
     expect(page).to have_content(@gary.gym_badges_collected)
     expect(page).to have_content(@gary.pokedex_count)
     expect(page).to have_content(@gary.has_bike)
-    
-    save_and_open_page
   end
 end
