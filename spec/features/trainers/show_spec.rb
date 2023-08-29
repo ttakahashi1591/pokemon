@@ -7,6 +7,8 @@ RSpec.describe 'trainers show page' do
 
   it 'shows trainers id including the trainers attributes' do 
     visit "/trainers/#{@ash.id}"
+    
+    save_and_open_page
 
     expect(page).to have_content(@ash.name)
     expect(page).to have_content(@ash.age)
