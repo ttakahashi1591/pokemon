@@ -299,27 +299,8 @@
           1,
           null
         ]
-      },
-      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/app/controllers/trainers_controller.rb": {
-        "lines": [
-          1,
-          1,
-          0,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
       }
     },
-    "timestamp": 1693344188
+    "timestamp": 1693347463
   }
 }
