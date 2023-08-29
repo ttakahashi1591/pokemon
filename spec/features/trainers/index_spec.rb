@@ -15,7 +15,4 @@ RSpec.describe 'trainers index page' do
     expect(page).to have_content(@misty.name)
     expect(page).to have_content(@tsutomu.name)
   end
-  
-  # describe 'the trainers show page'
-
 end

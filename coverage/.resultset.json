@@ -4,30 +4,30 @@
       "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/spec/test_helper.rb": {
         "lines": [
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
           null,
-          1,
-          1,
+          3,
+          3,
           null,
-          1,
-          1,
+          3,
+          3,
           null,
-          1,
-          1,
+          3,
+          3,
           null,
-          1,
-          1,
+          3,
+          3,
           null,
-          1,
-          1,
+          3,
+          3,
           null,
-          1,
-          1,
+          3,
+          3,
           null
         ]
       },
@@ -255,6 +255,8 @@
           null,
           1,
           1,
+          1,
+          1,
           null
         ]
       },
@@ -264,7 +266,81 @@
           null
         ]
       },
-      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/app/models/trainer.rb": {
+      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/spec/features/trainers/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/spec/features/trainers/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/spec/models/pocket_monster_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/app/models/pocket_monster.rb": {
         "lines": [
           1,
           1,
@@ -285,7 +361,28 @@
           null
         ]
       },
-      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/app/models/pocket_monster.rb": {
+      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/spec/models/trainer_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/app/models/trainer.rb": {
         "lines": [
           1,
           1,
@@ -299,7 +396,7 @@
           null
         ]
       },
-      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/app/controllers/trainers_controller.rb": {
+      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/app/controllers/pocket_monsters_controller.rb": {
         "lines": [
           1,
           1,
@@ -313,8 +410,21 @@
           1,
           null
         ]
+      },
+      "/Users/thomastakahashi/Turing/turing_work/2mod/projects/pokemon/app/controllers/trainers_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1693171943
+    "timestamp": 1693351414
   }
 }

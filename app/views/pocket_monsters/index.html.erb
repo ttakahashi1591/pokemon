@@ -1,0 +1,9 @@
+<h1>All Pokémon</h1>
+
+<% @pocket_monsters.each do |pocket_monster| %>
+  <h3><%= pocket_monster.name %></h3>
+
+  <p>Level: <%= pocket_monster.level %></p>
+  <p>Type: <%= pocket_monster.pokemon_type %></p>
+  <p>Can Evolve: <%= pocket_monster.can_evolve %></p>
+<% end %>
