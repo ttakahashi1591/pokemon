@@ -1,9 +1,11 @@
 <a href="/trainers">Trainer Details</a>
 
-<h1><%= @trainer.name %></h1>
+<% @trainers.each do |trainer| %>
+  <h1><%= trainer.name %></h1>
 
-<p><%= @trainer.age %></p>
-<p><%= @trainer.hometown %></p>
-<p><%= @trainer.gym_badges_collected %></p>
-<p><%= @trainer.pokedex_count %></p>
-<p><%= @trainer.has_bike %></p>
+  <p>Age: <%= trainer.age %></p>
+  <p>Hometown: <%= trainer.hometown %></p>
+  <p>Gym Badges Collected: <%= trainer.gym_badges_collected %></p>
+  <p>Pokédex Count: <%= trainer.pokedex_count %></p>
+  <p>Has A Bike: <%= trainer.has_bike %></p>
+<% end %>
